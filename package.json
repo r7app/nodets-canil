@@ -8,5 +8,23 @@
     "@types/express": "^4.17.13",
     "@types/mustache-express": "^1.2.1",
     "@types/node": "^17.0.23"
-  }
+  },
+  "name": "nodets-canil",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon -e ts,json,mustache src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r7app/nodets-canil.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r7app/nodets-canil/issues"
+  },
+  "homepage": "https://github.com/r7app/nodets-canil#readme"
 }
